@@ -100,6 +100,15 @@ proxies:
   - {name: 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-Atlanta 2, server: 92.119.16.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-NewYork 3, server: 194.124.76.194, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-LosAngeles 3, server: 45.66.164.121, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 (@proSSH)UnitedKingdom-1, server: 88.150.137.193, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇬🇧 (@proSSH)UnitedKingdom-2, server: 88.150.137.192, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇬🇧 (@proSSH)UnitedKingdom-3, server: 88.150.137.201, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇬🇧 (@proSSH)UnitedKingdom-4, server: 88.150.137.191, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇩🇪 (@proSSH)Germany-1, server: 136.243.191.86, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇩🇪 (@proSSH)Germany-2, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇩🇪 (@proSSH)Germany-3, server: 136.243.191.84, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇩🇪 (@proSSH)Germany-4, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+proxy-groups:
 proxy-groups:
   - name: Proxies
     type: select
@@ -188,6 +197,14 @@ proxy-groups:
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-Atlanta 2
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-NewYork 3
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-LosAngeles 3
+      - 🇬🇧 (@proSSH)UnitedKingdom-1
+      - 🇬🇧 (@proSSH)UnitedKingdom-2
+      - 🇬🇧 (@proSSH)UnitedKingdom-3
+      - 🇬🇧 (@proSSH)UnitedKingdom-4
+      - 🇩🇪 (@proSSH)Germany-1
+      - 🇩🇪 (@proSSH)Germany-2
+      - 🇩🇪 (@proSSH)Germany-3
+      - 🇩🇪 (@proSSH)Germany-4
   - name: JP
     type: select
     proxies:
@@ -317,6 +334,14 @@ proxy-groups:
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-Atlanta 2
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-NewYork 3
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-LosAngeles 3
+      - 🇬🇧 (@proSSH)UnitedKingdom-1
+      - 🇬🇧 (@proSSH)UnitedKingdom-2
+      - 🇬🇧 (@proSSH)UnitedKingdom-3
+      - 🇬🇧 (@proSSH)UnitedKingdom-4
+      - 🇩🇪 (@proSSH)Germany-1
+      - 🇩🇪 (@proSSH)Germany-2
+      - 🇩🇪 (@proSSH)Germany-3
+      - 🇩🇪 (@proSSH)Germany-4
   - name: Scholar
     type: select
     proxies:
@@ -401,6 +426,14 @@ proxy-groups:
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-Atlanta 2
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-NewYork 3
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-LosAngeles 3
+      - 🇬🇧 (@proSSH)UnitedKingdom-1
+      - 🇬🇧 (@proSSH)UnitedKingdom-2
+      - 🇬🇧 (@proSSH)UnitedKingdom-3
+      - 🇬🇧 (@proSSH)UnitedKingdom-4
+      - 🇩🇪 (@proSSH)Germany-1
+      - 🇩🇪 (@proSSH)Germany-2
+      - 🇩🇪 (@proSSH)Germany-3
+      - 🇩🇪 (@proSSH)Germany-4
   - name: Others
     type: select
     proxies:
@@ -496,6 +529,14 @@ proxy-groups:
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-Atlanta 2
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-NewYork 3
       - 🇺🇲 (@proSSHbot)UfoVPN-UnitedStates-LosAngeles 3
+      - 🇬🇧 (@proSSH)UnitedKingdom-1
+      - 🇬🇧 (@proSSH)UnitedKingdom-2
+      - 🇬🇧 (@proSSH)UnitedKingdom-3
+      - 🇬🇧 (@proSSH)UnitedKingdom-4
+      - 🇩🇪 (@proSSH)Germany-1
+      - 🇩🇪 (@proSSH)Germany-2
+      - 🇩🇪 (@proSSH)Germany-3
+      - 🇩🇪 (@proSSH)Germany-4
   - name: Microsoft
     type: select
     proxies:
